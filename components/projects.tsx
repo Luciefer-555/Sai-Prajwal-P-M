@@ -12,21 +12,20 @@ const PROJECTS = [
   {
     name: "Rhiley",
     description: "An AI system that helps generate frontend code with attention to UI/UX structure, layout, and usability. Rhiley combines AI reasoning with design awareness to assist in building thoughtful interfaces.",
-    tags: ["AI", "Olllama models", "Frontend AI"],
+    tags: ["AI", "Ollama", "Frontend AI"],
     link: "#",
   },
   {
-    name: "Cipher chat",
+    name: "Cipherchat",
     description: "A computer networks project where messages exist only during an active session and are deleted once both users disconnect. The platform supports communication through encoded formats like Morse code and binary, exploring concepts of encryption, protocols, and transient communication.",
     tags: ["Networking", "Encryption", "Protocols"],
-    link: "#",
+    link: "https://cipher-chat-two.vercel.app/",
   },
   {
     name: "Eternal Epics",
     description: "A digital reading and listening experience for Indian epics like the Ramayana and Srimad Bhagavatam, designed to make traditional texts accessible through structured reading and audio narration.",
     tags: ["Frontend", "Audio", "Web Platform"],
-
-    link: "#",
+    link: "https://the-eternal-epics-dmfq.vercel.app/",
   },
   {
     name: "SyncIn",
@@ -39,6 +38,18 @@ const PROJECTS = [
     description: "Comprehensive analysis of data structures and algorithms. Includes implementations, complexity analysis, and visualizations for learning and reference.",
     tags: ["Algorithms", "Python", "DSA"],
     link: "#",
+  },
+  {
+    name: "Art Gallery Slider",
+    description: "An interactive art gallery slider showcasing images with smooth transitions and responsive layout. Focused on animation, layout design, and user interaction.",
+    tags: ["Frontend", "Animation", "UI", "React"],
+    link: "https://v0-art-gallery-slider-two-iota.vercel.app/",
+  },
+  {
+    name: "Valentine-day ask out",
+    description: "Add a Valentine’s Day interaction: When the user clicks a jukebox object in the scene, show a centered modal card.",
+    tags: ["Html", "JavaScript", "CSS","Pixel art"],
+    link: "https://valentine-day-k9lv.vercel.app/",
   },
 ];
 
@@ -94,6 +105,7 @@ export const Projects = () => {
 
               <Link
                 href={project.link}
+                target="_blank"
                 className={`${buttonVariants({
                   variant: "ghost",
                   size: "sm",
